@@ -69,7 +69,7 @@ st.plotly_chart(fig, use_container_width=True)
 st.subheader('Filter by Vehicle Type')
 selected_type = st.selectbox(
     'Select vehicle type to analyze:',
-    options=['All'] + sorted(df['type'].unique().tolist())
+    options=['All'] + sorted(df['type'].unique().tolist()))
     
 if selected_type != 'All':
     filtered_df = df[df['type'] == selected_type]
