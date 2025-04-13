@@ -42,3 +42,41 @@ st.subheader('Price Distribution Visualization')
 st.bar_chart(df.groupby('type')['price'].mean())
 
 
+
+# Create header
+st.header('Vehicle Price Distribution Analysis')
+
+# Create Plotly Express histogram
+fig = px.histogram(df, 
+                   x='price',
+                   nbins=50,
+                   title='Distribution of Vehicle Prices',
+                   labels={'price': 'Price ($)'},
+                   color_discrete_sequence=['#1f77b4'])
+
+# Customize layout
+fig.update_layout(
+    bargap=0.1,
+    xaxis_title='Vehicle Price ($)',
+    yaxis_title='Number of Listings',
+    hovermode='x unified'
+)
+
+# Display the plot in Streamlit
+st.plotly_chart(fig, use_container_width=True)
+
+# Optional: Add interactive filters
+st.subheader('Filter by Vehicle Type')
+selected_type = st.selectbox(
+    'Select vehicle type to analyze:',
+    options=['All'] + sorted(df['type'].unique().tolist())
+    
+if selected_type != 'All':
+    filtered_df = df[df['type'] == selected_type]
+    fig2 = px.histogram(filtered_df, 
+                       x='price',
+                       nbins=30,
+                       title=f'Price Distribution for {selected_type}',
+                       labels={'price': 'Price ($)'},
+                       color_discrete_sequence=['#ff7f0e'])
+    st.plotly_chart(fig2, use_container_width=True)
