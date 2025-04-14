@@ -7,7 +7,7 @@ df = pd.read_csv('vehicles_us.csv')
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 df['price'] = df['price'].astype('float32')
 df['days_listed'] = df['days_listed'].astype('float32')
-return df
+
 
 # Create a header and display the dataframe with streamlit
 st.header('Vehicle Listings Data Viewer')
