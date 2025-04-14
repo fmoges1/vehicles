@@ -2,6 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import numpy as np
+import os
+os.environ["STREAMLIT_ARROW_NO_COMPAT"] = "1"
 
 
 df = pd.read_csv('vehicles_us.csv')
@@ -12,10 +14,11 @@ df = pd.read_csv('vehicles_us.csv')
 
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
+df['price'] = pd.to_numeric(df['price'], errors='coerce').fillna(0).astype('float64')
 
-df['price'] = pd.to_numeric(df['price'], errors='coerce')  # This will turn bad values into NaN
-df['price'] = df['price'].fillna(0)
-df['price'] = df['price'].astype(np.float64)
+#df['price'] = pd.to_numeric(df['price'], errors='coerce')  # This will turn bad values into NaN
+#df['price'] = df['price'].fillna(0)
+#df['price'] = df['price'].astype(np.float64)
 
 
 #df["price"] = df["price"].astype("int64")
@@ -135,4 +138,5 @@ if show_plot:
 else:
     # Display raw data when unchecked
     st.write("Raw Data:")
-    st.dataframe(df)
+    st.table(df.head())
+    
