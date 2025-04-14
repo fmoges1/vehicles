@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
-#df = pd.read_csv('vehicles_us.csv')
+df = pd.read_csv('vehicles_us.csv')
 
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
