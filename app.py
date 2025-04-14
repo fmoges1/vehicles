@@ -5,9 +5,16 @@ import numpy as np
 
 
 df = pd.read_csv('vehicles_us.csv')
+
+st.write("Unique price types:", df['price'].apply(type).unique())
+st.write("Any NaNs in price?", df['price'].isna().any())
+st.write("Any inf in price?", np.isinf(df['price']).any())
+
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
 
+df['price'] = pd.to_numeric(df['price'], errors='coerce')  # This will turn bad values into NaN
+df['price'] = df['price'].fillna(0)
 
 
 #df["price"] = df["price"].astype("int64")
@@ -23,7 +30,7 @@ df['price'] = df['price'].fillna(0)
 
 # Create a header and display the dataframe with streamlit
 st.header('Vehicle Listings Data Viewer')
-df["price"] = df["price"].astype(np.dtype("float64"))
+#df["price"] = df["price"].astype(np.dtype("float64"))
 st.dataframe(df)
 
 # Add some basic statistics
