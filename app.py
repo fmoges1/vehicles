@@ -3,42 +3,26 @@ import pandas as pd
 import plotly.express as px
 import numpy as np
 
-def super_clean(df):
-    # Force convert all columns
-    for col in df.columns:
-        if pd.api.types.is_numeric_dtype(df[col]):
-            df[col] = (
-                pd.to_numeric(df[col], errors='coerce')
-                .fillna(0)
-                .astype('float32')
-                .replace([np.inf, -np.inf], 0)
-            )
-        else:
-            df[col] = df[col].astype(str)
-    return df
 
 df = pd.read_csv('vehicles_us.csv')
-df = super_clean(df)
-
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
 
 
-
-#df['price'] = (
- #       pd.to_numeric(df['price'], errors='coerce')
-  #      .fillna(0)
-   #     .astype(np.float32)
-    #    .replace([np.inf, -np.inf], 0)
-#)
+df['price'] = (
+     pd.to_numeric(df['price'], errors='coerce')
+     .fillna(0)
+     .astype(np.float32)
+     .replace([np.inf, -np.inf], 0)
+)
     
 # Clean days_listed column
-#df['days_listed'] = (
-       # pd.to_numeric(df['days_listed'], errors='coerce')
-        #.fillna(0)
-        #.astype(np.float32)
-        #.replace([np.inf, -np.inf], 0)
-    #)
+df['days_listed'] = (
+       pd.to_numeric(df['days_listed'], errors='coerce')
+       .fillna(0)
+       .astype(np.float32)
+       .replace([np.inf, -np.inf], 0)
+)
     
 # Convert all object columns to strings
 #    for col in df.select_dtypes('object'):
