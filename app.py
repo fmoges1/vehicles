@@ -29,9 +29,9 @@ df['price'] = df['price'].astype(np.float64)
 
 
 # Create a header and display the dataframe with streamlit
-st.header('Vehicle Listings Data Viewer')
+#st.header('Vehicle Listings Data Viewer')
 #df["price"] = df["price"].astype(np.dtype("float64"))
-st.dataframe(df)
+#st.dataframe(df)
 
 # Add some basic statistics
 st.subheader('Quick Stats')
