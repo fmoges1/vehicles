@@ -7,31 +7,26 @@ import numpy as np
 
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
-def load_and_clean_data():
-    # Load data
-    df = pd.read_csv('vehicles_us.csv')
-    
-    # Clean price column
-    df['price'] = (
+
+df['price'] = (
         pd.to_numeric(df['price'], errors='coerce')
         .fillna(0)
         .astype(np.float32)
         .replace([np.inf, -np.inf], 0)
-    )
+)
     
-    # Clean days_listed column
-    df['days_listed'] = (
+# Clean days_listed column
+df['days_listed'] = (
         pd.to_numeric(df['days_listed'], errors='coerce')
         .fillna(0)
         .astype(np.float32)
         .replace([np.inf, -np.inf], 0)
     )
     
-    # Convert all object columns to strings
-    for col in df.select_dtypes('object'):
-        df[col] = df[col].astype(str)
-    
-    return df
+# Convert all object columns to strings
+#    for col in df.select_dtypes('object'):
+ #       df[col] = df[col].astype(str)
+
   
 # Create a header and display the dataframe with streamlit
 st.header('Vehicle Listings Data Viewer')
