@@ -1,0 +1,144 @@
+price,model_year,model,condition,cylinders,fuel,odometer,transmission,type,paint_color,is_4wd,date_posted,days_listed,manufacturer
+9400,2011,bmw x5,good,6,gas,145000,automatic,SUV,unknown,TRUE,6/23/2018,19,bmw
+25500,2011,ford f-150,good,6,gas,88705,automatic,pickup,white,TRUE,10/19/2018,50,ford
+5500,2013,hyundai sonata,excellent,4,gas,110000,automatic,sedan,red,FALSE,2/7/2019,79,hyundai
+1500,2003,ford f-150,fair,8,gas,165025,automatic,pickup,unknown,FALSE,3/22/2019,9,ford
+14900,2017,chrysler 200,excellent,4,gas,80903,automatic,sedan,black,FALSE,4/2/2019,28,chrysler
+14990,2014,chrysler 300,excellent,6,gas,57954,automatic,sedan,black,TRUE,6/20/2018,15,chrysler
+12990,2015,toyota camry,excellent,4,gas,79212,automatic,sedan,white,FALSE,12/27/2018,73,toyota
+15990,2013,honda pilot,excellent,6,gas,109473,automatic,SUV,black,TRUE,1/7/2019,68,honda
+11500,2012,kia sorento,excellent,4,gas,104174,automatic,SUV,unknown,TRUE,7/16/2018,19,kia
+9200,2008,honda pilot,excellent,6,gas,147191,automatic,SUV,blue,TRUE,2/15/2019,17,honda
+19500,2011,chevrolet silverado 1500,excellent,8,gas,128413,automatic,pickup,black,TRUE,9/17/2018,38,chevrolet
+8990,2012,honda accord,excellent,4,gas,111142,automatic,sedan,grey,FALSE,3/28/2019,29,honda
+18990,2012,ram 1500,excellent,8,gas,140742,automatic,pickup,unknown,TRUE,4/2/2019,37,ram
+16500,2018,hyundai sonata,excellent,4,gas,22104,automatic,sedan,silver,FALSE,1/14/2019,29,hyundai
+12990,2009,gmc yukon,excellent,8,gas,132285,automatic,SUV,black,TRUE,1/31/2019,24,gmc
+17990,2013,ram 1500,excellent,8,gas,100130,automatic,pickup,red,TRUE,5/15/2018,111,ram
+14990,2010,ram 1500,excellent,8,gas,130725,automatic,pickup,red,TRUE,12/30/2018,13,ram
+13990,2014,jeep cherokee,excellent,6,gas,100669,automatic,SUV,red,TRUE,8/16/2018,25,jeep
+12500,2013,chevrolet traverse,excellent,6,gas,128325,automatic,SUV,white,TRUE,4/9/2019,13,chevrolet
+13990,2018,hyundai elantra,excellent,4,gas,31932,automatic,sedan,red,FALSE,8/25/2018,27,hyundai
+6990,2009,chevrolet tahoe,excellent,8,gas,147485,automatic,SUV,silver,TRUE,8/5/2018,28,chevrolet
+5250,2007,toyota rav4,good,6,gas,154000,automatic,SUV,unknown,FALSE,8/22/2018,8,toyota
+7500,2004,chevrolet silverado,excellent,8,gas,180000,automatic,truck,red,TRUE,1/5/2019,64,chevrolet
+7500,2004,jeep wrangler,good,6,gas,158000,automatic,SUV,red,TRUE,5/17/2018,39,jeep
+3950,2009,chrysler 200,excellent,4,gas,129950,automatic,sedan,red,FALSE,6/11/2018,40,chrysler
+11499,2017,chevrolet malibu,excellent,4,gas,43200,automatic,sedan,unknown,FALSE,7/26/2018,43,chevrolet
+8499,2014,ford fusion se,excellent,4,gas,79523,automatic,sedan,red,FALSE,10/25/2018,23,ford
+12999,2015,chevrolet impala,excellent,6,gas,39368,automatic,sedan,custom,FALSE,5/19/2018,42,chevrolet
+29800,2012,chevrolet corvette,excellent,8,gas,57413,automatic,coupe,orange,FALSE,10/22/2018,101,chevrolet
+5495,2010,chevrolet impala,excellent,6,gas,129026,automatic,sedan,white,FALSE,2/18/2019,20,chevrolet
+5000,2009,jeep liberty,good,6,gas,137273,automatic,SUV,white,TRUE,2/19/2019,14,jeep
+11999,2017,toyota camry le,excellent,4,gas,35721,automatic,sedan,unknown,FALSE,9/13/2018,25,toyota
+9499,2015,nissan altima,excellent,4,gas,51848,automatic,sedan,grey,FALSE,11/12/2018,7,nissan
+3890,2011,subaru outback,excellent,4,gas,300000,automatic,SUV,white,TRUE,12/25/2018,31,subaru
+9500,2008,toyota highlander,good,6,gas,149799,automatic,SUV,unknown,FALSE,6/4/2018,121,toyota
+14999,2015,dodge charger,good,6,gas,63037,automatic,sedan,unknown,FALSE,5/11/2018,37,dodge
+10499,2013,chrysler 300,good,6,gas,88042,automatic,sedan,unknown,FALSE,5/5/2018,22,chrysler
+7500,2005,toyota tacoma,good,6,gas,160000,automatic,pickup,unknown,FALSE,7/22/2018,44,toyota
+7999,2015,chrysler 200,good,4,gas,72874.5,automatic,sedan,unknown,FALSE,3/8/2019,29,chrysler
+8000,2009,ford f-150,good,8,gas,234000,automatic,truck,black,TRUE,3/31/2019,1,ford
+11499,2017,chevrolet equinox,excellent,4,gas,54772,automatic,SUV,grey,TRUE,1/12/2019,36,chevrolet
+11995,2017,nissan rogue,excellent,4,gas,42367.5,automatic,SUV,silver,TRUE,9/20/2018,21,nissan
+34900,2013,mercedes-benz benze sprinter 2500,excellent,6,diesel,101947.5,automatic,van,black,FALSE,1/15/2019,16,mercedes-benz
+5100,2008,honda cr-v,excellent,4,gas,188000,automatic,SUV,red,TRUE,11/18/2018,10,honda
+4500,2004,jeep grand cherokee,good,6,gas,168821,automatic,SUV,unknown,TRUE,1/31/2019,60,jeep
+2400,2001,toyota camry,good,4,gas,277564,automatic,coupe,yellow,FALSE,5/27/2018,51,toyota
+11200,2015,dodge charger,excellent,6,gas,90302,automatic,sedan,black,TRUE,7/19/2018,73,dodge
+12500,2008,toyota 4runner,good,6,gas,141098,automatic,SUV,grey,FALSE,3/10/2019,35,toyota
+9500,2014,ford focus,excellent,4,diesel,46000,automatic,sedan,unknown,FALSE,10/9/2018,24,ford
+3200,2006,honda civic,excellent,4,gas,255390,automatic,sedan,blue,FALSE,10/18/2018,23,honda
+6200,2006,ford f-150,excellent,6,gas,69698,automatic,truck,custom,FALSE,5/3/2018,50,ford
+3800,2012,ford focus,good,4,gas,130323,automatic,sedan,black,FALSE,11/29/2018,261,ford
+3300,2011,kia soul,good,4,gas,188963,manual,SUV,black,FALSE,2/16/2019,71,kia
+10400,2012,chevrolet colorado,excellent,5,gas,111871,automatic,truck,red,TRUE,1/30/2019,27,chevrolet
+30300,2017,ford f150 supercrew cab xlt,good,6,gas,30339,automatic,pickup,brown,TRUE,7/15/2018,14,ford
+19700,2017,chevrolet camaro lt coupe 2d,good,6,gas,35807,other,coupe,unknown,FALSE,5/16/2018,99,chevrolet
+4200,2006,jeep grand cherokee,excellent,6,gas,147000,automatic,SUV,white,TRUE,7/1/2018,79,jeep
+4877,2012,chevrolet cruze,excellent,4,gas,163261,automatic,sedan,white,FALSE,4/18/2019,21,chevrolet
+3200,2004,bmw x5,excellent,6,gas,158000,automatic,SUV,black,TRUE,4/9/2019,10,bmw
+5200,2006,toyota highlander,good,6,gas,186000,automatic,SUV,green,FALSE,12/20/2018,2,toyota
+13000,2005,ram 1500,good,8,gas,146000,automatic,truck,grey,TRUE,3/14/2019,26,ram
+16999,2013,chevrolet silverado 1500,good,8,gas,137230,automatic,truck,white,TRUE,5/29/2018,24,chevrolet
+10499,2017,chevrolet cruze,good,4,gas,53601,automatic,sedan,black,FALSE,1/13/2019,48,chevrolet
+30000,1966,ford mustang,excellent,6,gas,51000,manual,convertible,red,FALSE,1/23/2019,17,ford
+15999,2017,chevrolet cruze,good,4,gas,17498,automatic,sedan,black,FALSE,11/7/2018,54,chevrolet
+12800,2011,ford f-150,excellent,6,gas,108500,automatic,pickup,white,FALSE,9/23/2018,15,ford
+14999,2013,chevrolet silverado 3500hd,good,8,gas,111500,automatic,truck,white,TRUE,5/9/2018,22,chevrolet
+14950,2012,ram 1500,excellent,8,gas,114773,automatic,truck,grey,TRUE,4/9/2019,85,ram
+6950,2013,nissan altima,excellent,4,gas,158786,automatic,sedan,unknown,FALSE,12/24/2018,41,nissan
+7800,2011,ford f-150,excellent,8,gas,97510,automatic,truck,white,TRUE,2/20/2019,39,ford
+5500,2006,honda accord,good,4,gas,144000,automatic,sedan,silver,FALSE,11/27/2018,15,honda
+23300,2018,nissan frontier crew cab sv,good,6,gas,27493,other,pickup,unknown,TRUE,10/13/2018,36,nissan
+3650,2011,subaru impreza,excellent,4,gas,74000,automatic,sedan,blue,TRUE,8/7/2018,60,subaru
+1900,1994,jeep grand cherokee laredo,good,6,gas,207,automatic,SUV,grey,TRUE,7/27/2018,9,jeep
+9950,2008,toyota 4runner,excellent,6,gas,142928.5,automatic,SUV,silver,TRUE,6/8/2018,53,toyota
+6950,2005,chevrolet tahoe,excellent,8,gas,186021,automatic,SUV,unknown,TRUE,10/30/2018,3,chevrolet
+3000,2010,nissan versa,excellent,4,gas,200412,automatic,hatchback,silver,FALSE,9/23/2018,33,nissan
+4200,2012,ford focus,excellent,4,gas,144273,automatic,sedan,silver,FALSE,6/11/2018,19,ford
+23800,2019,nissan frontier crew cab sv,good,6,gas,10899,other,pickup,silver,TRUE,2/28/2019,30,nissan
+16500,2012,ford f-250 sd,good,8,gas,123262,automatic,truck,silver,TRUE,9/25/2018,47,ford
+26900,2014,chevrolet silverado 1500 crew,good,8,gas,68607,automatic,pickup,unknown,TRUE,9/8/2018,10,chevrolet
+5900,2000,ford f250 super duty,good,8,diesel,202752,automatic,pickup,red,FALSE,7/8/2018,32,ford
+9950,2014,dodge charger,good,8,gas,102878,automatic,sedan,white,FALSE,6/2/2018,28,dodge
+11950,2008,chevrolet silverado,good,8,gas,170000,automatic,truck,black,TRUE,3/13/2019,38,chevrolet
+4995,2013,hyundai elantra,excellent,4,gas,151223,automatic,sedan,custom,FALSE,9/15/2018,1,hyundai
+4826,2000,gmc yukon,excellent,8,gas,226111,automatic,SUV,grey,TRUE,6/30/2018,14,gmc
+9599,2011,chevrolet camaro,good,6,gas,100680,manual,coupe,silver,FALSE,10/26/2018,18,chevrolet
+8499,2009,bmw x5,good,6,gas,104482,automatic,SUV,blue,TRUE,3/4/2019,52,bmw
+26000,2017,ford mustang gt coupe 2d,good,8,gas,27000,other,coupe,yellow,FALSE,11/26/2018,31,ford
+18800,2015,chevrolet camaro lt coupe 2d,good,6,gas,33926,other,coupe,grey,FALSE,1/16/2019,152,chevrolet
+18000,2010,ram 1500,good,8,gas,50500,automatic,truck,white,TRUE,6/16/2018,11,ram
+2800,2010,chevrolet colorado,good,5,gas,200800,automatic,pickup,unknown,FALSE,7/24/2018,10,chevrolet
+2950,2003,chevrolet silverado,good,8,gas,230000,automatic,pickup,unknown,FALSE,5/6/2018,24,chevrolet
+32000,2017,honda pilot,excellent,6,gas,32104,automatic,SUV,white,FALSE,7/12/2018,100,honda
+8995,2012,toyota rav4,excellent,4,gas,124526,automatic,SUV,black,TRUE,12/14/2018,24,toyota
+9995,2017,hyundai sonata,excellent,4,gas,105985,automatic,sedan,white,FALSE,5/2/2018,18,hyundai
+24600,2013,ford mustang gt coupe 2d,good,8,gas,22474,other,coupe,white,FALSE,10/28/2018,22,ford
+6500,2012,ford fusion se,excellent,6,gas,90000,automatic,sedan,grey,FALSE,9/20/2018,94,ford
+3995,2008,subaru forester,excellent,4,gas,165000,automatic,SUV,white,TRUE,12/24/2018,19,subaru
+39950,2018,chevrolet silverado,excellent,8,gas,18500,automatic,truck,unknown,TRUE,8/5/2018,16,chevrolet
+26000,2015,chevrolet silverado 1500 crew,good,8,gas,92281,automatic,pickup,white,TRUE,4/2/2019,82,chevrolet
+18700,2017,nissan frontier crew cab sv,good,6,gas,40002,other,pickup,white,FALSE,6/1/2018,44,nissan
+10800,2015,chevrolet colorado,excellent,5,gas,114922,automatic,truck,red,TRUE,6/23/2018,35,chevrolet
+5500,2004,ford explorer,good,6,gas,140355,automatic,SUV,white,TRUE,9/10/2018,35,ford
+22900,2014,ford f150 supercrew cab xlt,good,6,gas,73711,automatic,pickup,white,TRUE,2/27/2019,141,ford
+26700,2015,ford f150 supercrew cab xlt,good,6,gas,48278,other,pickup,brown,TRUE,9/22/2018,64,ford
+21500,2019,nissan frontier crew cab sv,good,6,gas,16168,other,pickup,white,FALSE,3/29/2019,70,nissan
+19700,2017,chevrolet camaro lt coupe 2d,good,6,gas,35807,other,coupe,black,FALSE,3/11/2019,33,chevrolet
+24200,2018,chevrolet camaro lt coupe 2d,good,6,gas,6886,other,coupe,grey,FALSE,7/20/2018,57,chevrolet
+22800,2013,ford f-350 sd,good,8,diesel,207738,automatic,truck,brown,TRUE,11/8/2018,62,ford
+28400,2017,ford mustang gt coupe 2d,good,8,gas,6665,other,coupe,blue,FALSE,5/16/2018,46,ford
+29900,2018,ford mustang gt coupe 2d,good,8,gas,3827,automatic,coupe,yellow,FALSE,3/22/2019,48,ford
+22500,2019,nissan frontier crew cab sv,good,6,gas,24209,other,pickup,unknown,TRUE,3/3/2019,73,nissan
+24600,2014,chevrolet silverado 1500 crew,good,6,gas,85048,automatic,pickup,silver,TRUE,8/19/2018,96,chevrolet
+23700,2018,nissan frontier crew cab sv,good,6,gas,12901,other,pickup,black,TRUE,9/21/2018,8,nissan
+21900,2018,nissan frontier crew cab sv,good,6,gas,27576,other,pickup,unknown,TRUE,11/22/2018,58,nissan
+25300,2017,chevrolet camaro lt coupe 2d,good,6,gas,3568,other,coupe,unknown,FALSE,6/16/2018,34,chevrolet
+4600,2012,nissan versa,good,4,gas,146000,automatic,sedan,unknown,FALSE,6/7/2018,32,nissan
+28900,2017,ford f150 supercrew cab xlt,good,6,gas,43004,automatic,pickup,white,TRUE,9/18/2018,58,ford
+14800,2016,kia sorento,excellent,4,gas,53993,automatic,SUV,brown,FALSE,2/27/2019,93,kia
+33900,2018,chevrolet silverado 1500 crew,good,8,gas,11315,other,pickup,white,TRUE,3/1/2019,2,chevrolet
+4800,2006,honda accord,excellent,4,gas,195000,automatic,sedan,silver,FALSE,12/12/2018,49,honda
+4500,2012,chevrolet impala,excellent,6,gas,145000,automatic,sedan,white,FALSE,10/10/2018,38,chevrolet
+21595,2015,chevrolet silverado 1500,excellent,8,gas,92634,automatic,truck,black,TRUE,11/15/2018,53,chevrolet
+37000,2018,chevrolet silverado 1500 crew,good,8,gas,30465,other,pickup,white,TRUE,1/13/2019,55,chevrolet
+22900,2019,nissan frontier crew cab sv,good,6,gas,16295,other,pickup,blue,TRUE,4/15/2019,67,nissan
+25900,2012,chevrolet silverado 1500 crew,good,8,other,119370,other,pickup,unknown,TRUE,8/31/2018,44,chevrolet
+10999,2010,ford edge,good,6,gas,98193,automatic,SUV,blue,TRUE,8/11/2018,78,ford
+2900,2000,nissan maxima,good,6,gas,170000,automatic,sedan,green,FALSE,9/23/2018,12,nissan
+2700,2005,chevrolet equinox,good,6,gas,150352,automatic,SUV,silver,FALSE,4/2/2019,49,chevrolet
+2900,2000,nissan maxima,good,6,gas,171000,automatic,sedan,green,FALSE,4/9/2019,27,nissan
+9500,2009,ford f-250,good,8,gas,189490,automatic,truck,white,TRUE,8/3/2018,6,ford
+4900,2011,nissan sentra,good,4,gas,116000,automatic,sedan,silver,FALSE,11/30/2018,19,nissan
+24000,2018,nissan frontier crew cab sv,good,6,gas,16295,other,pickup,blue,TRUE,5/26/2018,30,nissan
+18200,2012,nissan frontier crew cab sv,good,6,gas,119370,other,pickup,white,FALSE,9/19/2018,30,nissan
+28000,2016,ford mustang gt coupe 2d,good,8,gas,31100,other,coupe,black,FALSE,11/20/2018,28,ford
+24700,2015,ford mustang gt coupe 2d,good,8,gas,37270,other,coupe,black,FALSE,4/16/2019,41,ford
+26900,2014,chevrolet silverado 1500 crew,good,8,gas,68607,automatic,pickup,black,TRUE,7/28/2018,18,chevrolet
+4500,2013,nissan altima,excellent,4,gas,140000,automatic,sedan,silver,FALSE,3/29/2019,108,nissan
+19500,2014,ford f150,excellent,8,gas,116000,automatic,truck,grey,TRUE,6/26/2018,40,ford
+2000,1993,ford f-150,good,8,gas,258225,automatic,truck,red,FALSE,3/6/2019,34,ford
+13995,2010,chevrolet silverado 1500,excellent,8,gas,151442,automatic,truck,silver,TRUE,12/20/2018,72,chevrolet
+39990,2015,chevrolet corvette,excellent,8,gas,17340,manual,coupe,unknown,FALSE,7/14/2018,38,chevrolet
