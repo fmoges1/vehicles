@@ -13,9 +13,9 @@ def super_clean(df):
                 .astype('float32')
                 .replace([np.inf, -np.inf], 0)
             )
-    else:
+        else:
             df[col] = df[col].astype(str)
-return df
+    return df
 
 df = pd.read_csv('vehicles_us.csv')
 df = super_clean(df)
