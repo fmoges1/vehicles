@@ -9,20 +9,7 @@ df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
 
 
-df['price'] = (
-     pd.to_numeric(df['price'], errors='coerce')
-     .fillna(0)
-     .astype(np.float32)
-     .replace([np.inf, -np.inf], 0)
-)
-    
-# Clean days_listed column
-df['days_listed'] = (
-       pd.to_numeric(df['days_listed'], errors='coerce')
-       .fillna(0)
-       .astype(np.float32)
-       .replace([np.inf, -np.inf], 0)
-)
+df["price"] = df["price"].astype(np.dtype("float32"))
     
 # Convert all object columns to strings
 #    for col in df.select_dtypes('object'):
