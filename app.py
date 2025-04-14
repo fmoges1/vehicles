@@ -6,11 +6,32 @@ df = pd.read_csv('vehicles_us.csv')
 
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
-#df['price'] = df['price'].astype('float32')
-df['price'] = pd.to_numeric(df['price'], errors='coerce').fillna(0).astype('float32')
-df['days_listed'] = df['days_listed'].astype('float32')
-
-
+def load_and_clean_data():
+    # Load data
+    df = pd.read_csv('vehicles_us_sample.csv')
+    
+    # Clean price column
+    df['price'] = (
+        pd.to_numeric(df['price'], errors='coerce')
+        .fillna(0)
+        .astype(np.float32)
+        .replace([np.inf, -np.inf], 0)
+    )
+    
+    # Clean days_listed column
+    df['days_listed'] = (
+        pd.to_numeric(df['days_listed'], errors='coerce')
+        .fillna(0)
+        .astype(np.float32)
+        .replace([np.inf, -np.inf], 0)
+    )
+    
+    # Convert all object columns to strings
+    for col in df.select_dtypes('object'):
+        df[col] = df[col].astype(str)
+    
+    return df
+  
 # Create a header and display the dataframe with streamlit
 st.header('Vehicle Listings Data Viewer')
 st.dataframe(df)
