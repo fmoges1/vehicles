@@ -97,3 +97,23 @@ fig = px.scatter(
 # Display in Streamlit
 st.plotly_chart(fig)
 
+
+st.header('Vehicle Data Explorer')
+
+# Create checkbox
+show_plot = st.checkbox('Show Scatter Plot (Price vs. Mileage)', value=True)
+
+if show_plot:
+    # Display scatter plot when checked
+    fig = px.scatter(
+        df,
+        x='odometer',
+        y='price',
+        title='Price vs. Mileage',
+        labels={'odometer': 'Mileage (miles)', 'price': 'Price ($)'}
+    )
+    st.plotly_chart(fig)
+else:
+    # Display raw data when unchecked
+    st.write("Raw Data:")
+    st.dataframe(df)
