@@ -10,7 +10,7 @@ df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
 
 #df["price"] = df["price"].astype(np.dtype("float32"))
-df["price"] = df["price"].astype("float64")
+df["price"] = df["price"].astype("int64")
 
     
 # Convert all object columns to strings
