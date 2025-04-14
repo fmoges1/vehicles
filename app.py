@@ -80,3 +80,20 @@ if selected_type != 'All':
                        labels={'price': 'Price ($)'},
                        color_discrete_sequence=['#ff7f0e'])
     st.plotly_chart(fig2, use_container_width=True)
+
+
+
+# Simple header
+st.header('Simple Vehicle Price vs. Mileage')
+
+# Create basic scatter plot
+fig = px.scatter(
+    df,
+    x='odometer',
+    y='price',
+    title='Vehicle Prices by Mileage'
+)
+
+# Display in Streamlit
+st.plotly_chart(fig)
+
