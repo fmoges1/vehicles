@@ -9,8 +9,8 @@ df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
 
 
-#df["price"] = df["price"].astype(np.dtype("float32"))
-df["price"] = df["price"].astype("int64")
+
+#df["price"] = df["price"].astype("int64")
 
     
 # Convert all object columns to strings
@@ -18,10 +18,12 @@ df["price"] = df["price"].astype("int64")
  #       df[col] = df[col].astype(str)
 
 
+df['price'] = df['price'].fillna(0)
 
 
 # Create a header and display the dataframe with streamlit
 st.header('Vehicle Listings Data Viewer')
+df["price"] = df["price"].astype(np.dtype("float64"))
 st.dataframe(df)
 
 # Add some basic statistics
