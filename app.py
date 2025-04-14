@@ -2,13 +2,13 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv('vehicles_us.csv')
+#df = pd.read_csv('vehicles_us.csv')
 
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
 def load_and_clean_data():
     # Load data
-    df = pd.read_csv('vehicles_us_sample.csv')
+    df = pd.read_csv('vehicles_us.csv')
     
     # Clean price column
     df['price'] = (
