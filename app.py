@@ -6,9 +6,9 @@ import numpy as np
 
 df = pd.read_csv('vehicles_us.csv')
 
-st.write("Unique price types:", df['price'].apply(type).unique())
-st.write("Any NaNs in price?", df['price'].isna().any())
-st.write("Any inf in price?", np.isinf(df['price']).any())
+#st.write("Unique price types:", df['price'].apply(type).unique())
+#st.write("Any NaNs in price?", df['price'].isna().any())
+#st.write("Any inf in price?", np.isinf(df['price']).any())
 
 df['manufacturer'] = df['model'].apply(lambda x:x.split()[0])
 
