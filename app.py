@@ -61,7 +61,7 @@ fig.update_layout(
 # Display the plot in Streamlit
 st.plotly_chart(fig, use_container_width=True)
 
-# Optional: Add interactive filters
+# Add interactive filters
 st.subheader('Filter by Vehicle Type')
 selected_type = st.selectbox(
     'Select vehicle type to analyze:',
